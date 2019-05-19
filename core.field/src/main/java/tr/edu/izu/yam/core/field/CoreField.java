@@ -12,9 +12,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import tr.edu.izu.yam.core.base.IEntity;
- 
+
 @Entity
-@Table(name = "core_field")
+@Table(name = "core_field") 
 
 public class CoreField implements Serializable, IEntity {
 
